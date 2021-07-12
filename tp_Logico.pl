@@ -17,14 +17,14 @@ masRicoQue(tiaAgatha, Persona):-
    not(odia(mayodormo, Persona)),
    viveEnMansionDreadbury(Persona).
    
-mata(LoQueMata, Victima):-
-   not(masRicoQue(Victima, LoQueMata)),
-   viveEnMansionDreadbury(LoQueMata).
+mata(Asesino, Victima):-
+   not(masRicoQue(Victima, Asesino)),
+   viveEnMansionDreadbury(Asesino).
    
 /* 
 1)
-   mata(LoQueMata, tiaAgatha).
-	 LoQueMata = tiaAgatha 
+   mata(Asesino, tiaAgatha).
+	 Asesino = tiaAgatha 
 2) 
    odia(_, milhouse).
       false.
